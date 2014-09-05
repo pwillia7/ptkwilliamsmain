@@ -280,6 +280,7 @@ footer .footer-above {
 }
 footer .footer-col {
   margin-bottom: 50px;
+  overflow: hidden;
 }
 footer .footer-below {
   padding: 25px 0;
@@ -372,4 +373,10 @@ footer .footer-below {
   -webkit-transform: rotate(90deg);
   /* Safari and Chrome */
   z-index: 1052;
+}
+.socialButtons{
+  padding-top: 30px;
+}
+.footer-col.col-md-4.ptkOctocard{
+  overflow: visible;
 }

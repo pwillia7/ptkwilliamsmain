@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>octocard</title>
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+<body>
+    <style>
+    body {
+        text-align:center;
+    }
+    #octocard h1 {
+        // test `noIsolated` config
+        color: red;
+    }
+    #octocard,
+    #octocard2,
+    #octocard3 {
+        margin-right: 1em !important;
+        margin-bottom: 1em !important;
+        float: left;
+    }
+    #octocard {
+        width: 180px;
+    }
+    #octocard2 {
+        width: 240px;
+    }
+    #octocard3 {
+        width: 480px;
+    }
+    </style>
+    <div id="octocard"></div>
+    <div id="octocard2"></div>
+    <div id="octocard3"></div>
+    <!--
+    <script>
+    OCTOCARD = {
+        name: 'zmmbreeze',
+        reposNum: 3,
+        noIsolated: true
+    };
+    </script>
+    <script
+        data-name="zmmbreeze"
+        data-reposNum="5"
+        data-reposIgnored="slider.css"
+        data-orgsNum="-1"
+        data-noFooter="false"
+        src="bin/octocard.js"></script>
+    -->
+    <script src="bin/octocard.js"></script>
+    <script>
+    octocard({
+        name: 'zmmbreeze',
+        reposNum: 10,
+        noIsolated: true
+    });
+
+    octocard({
+        element: 'octocard2',
+        name: 'zmmbreeze'
+    });
+
+    octocard({
+        element: 'octocard3',
+        name: 'zmmbreeze'
+    });
+    </script>
+</body>
+</html>
