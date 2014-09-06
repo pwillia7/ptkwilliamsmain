@@ -148,6 +148,9 @@ section.success {
   color: white;
 }
 @media (max-width: 767px) {
+  video{
+    max-height: 35%;
+  }
   section {
     padding: 75px 0;
   }
