@@ -380,3 +380,6 @@ footer .footer-below {
 .footer-col.col-md-4.ptkOctocard{
   overflow: visible;
 }
+video{
+  max-width: 100%;
+}
