@@ -30,3 +30,38 @@ $(function() {
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
+
+// HTML5 Video Controllers
+
+// Modal 1 control
+    $('#pmw1').click(function(){
+        document.getElementById('bcc_vid').play();
+    });
+    
+    $('#closeModal1').click(function(){
+        document.getElementById('bcc_vid').load();
+    })
+// Modal 2 control
+    $('#pmw2').click(function(){
+    document.getElementById('timezone_vid').play();
+    });
+
+    $('#closeModal2').click(function(){
+        document.getElementById('timezone_vid').load();
+    });
+// Modal 3 control
+    $('#pmw3').click(function(){
+    document.getElementById('readingbox_vid').play();
+    });
+    
+    $('#closeModal3').click(function(){
+        document.getElementById('readingbox_vid').load();
+    });
+// Modal 4 control
+    $('#pmw4').click(function(){
+    document.getElementById('reddit2pdf_vid').play();
+    });
+    
+    $('#closeModal4').click(function(){
+        document.getElementById('reddit2pdf_vid').load();
+    });

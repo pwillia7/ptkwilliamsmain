@@ -96,44 +96,44 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div id='pmw1' class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/bcc_port.png" class="img-responsive" alt="">
+                        <img id='bcc_img' src="img/portfolio/bcc_port.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div id='pmw2' class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/timezone_port.png" class="img-responsive" alt="">
+                        <img id='timezone_img' src="img/portfolio/timezone_port.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div id='pmw3' class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/readingbox_port.png" class="img-responsive" alt="">
+                        <img id='readingbox_img' src="img/portfolio/readingbox_port.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div id='pmw4' class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/reddit2pdf_port.png" class="img-responsive" alt="">
+                        <img id='reddit2pdf_img' src="img/portfolio/reddit2pdf_port.png" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                     <p>Hi! I'm a web developer currently living in Austin, TX. I love building websites, web apps and have an obsession with great UX. Please use the form below and say hello!</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Please take a look at some of my projects above. I'd love to hear your feedback! New projects are always in the works, so check back soon!</p>
+                    <p>Please take a look at some of my projects above. I'd love to hear your feedback! New projects are always in the works, so check back soon! </p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center page-scroll">
                     <a href="#contact" class="btn btn-lg btn-outline">
@@ -281,7 +281,7 @@
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+            <div id='closeModal1' class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -294,7 +294,10 @@
                             <h2>Best Buy Price Compare</h2>
                             <hr class="star-primary">
                             <a href="http://bcc.ptkwilliams.com">
-                                <img src="img/portfolio/bcc_port.png" class="img-responsive img-centered" alt="">
+                                <video id='bcc_vid' width='680' height='490' controls>
+                                    <source src="img/bcc_screen.mp4" type='video/mp4'>
+                                    <img src="img/portfolio/bcc_port.png" class="img-responsive img-centered" alt="">
+                                </video>
                             </a>
                             <p>Useful tool to quickly pricematch while shopping at Best Buy. Simply enter the URL of a product you're looking at and Price Comparer will find the eligible price matches for you all on one page!</p>
                             <ul class="list-inline item-details">
@@ -316,7 +319,7 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+            <div id='closeModal2' class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -329,7 +332,10 @@
                             <h2>Timezone Converter</h2>
                             <hr class="star-primary">
                             <a href="http://timezone.ptkwilliams.com">
-                                <img src="img/portfolio/timezone_port.png" class="img-responsive img-centered" alt="">
+                                <video id='timezone_vid' width='680' height='490' controls>
+                                    <source src="img/timezone_screen.mp4" type='video/mp4'>
+                                    <img src="img/portfolio/timezone_port.png" class="img-responsive img-centered" alt="">
+                                </video>
                             </a>
                             <p>While in serious need of a facelift, Timezone Converter can automatically convert time between to places. Have a meeting with folks in Beijing at 10 AM? Timezone Converter will let you know the local time while taking into effect DST in both locations.</p>
                             <ul class="list-inline item-details">
@@ -351,7 +357,7 @@
     </div>
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+            <div id='closeModal3' class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -364,7 +370,10 @@
                             <h2>readingBox</h2>
                             <hr class="star-primary">
                             <a href="http://ptkwilliams.com/readingBox">
+                                <video id='readingbox_vid' width='680' height='490' controls>
+                                    <source src="img/readingbox_screen.mp4" type='video/mp4'>
                                 <img src="img/portfolio/readingbox_port.png" class="img-responsive img-centered" alt="">
+                                </video>
                             </a>
                             <p>ReadingBox helps you read articles and anything else on the internet faster than ever. Still a work in progress.</p>
                             <ul class="list-inline item-details">
@@ -386,7 +395,7 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+            <div id='closeModal4' class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -399,7 +408,10 @@
                             <h2>Reddit2PDF</h2>
                             <hr class="star-primary">
                             <a href="http://ptkwilliams.com/reddit2pdf">
+                                <video id='reddit2pdf_vid' width='680' height='490' controls>
+                                    <source src="img/reddit2pdf_screen.mp4" type='video/mp4'>
                                 <img src="img/portfolio/reddit2pdf_port.png" class="img-responsive img-centered" alt="">
+                                </video>
                             </a>
                             <p>A fun tool to generate a PDF file of a user input subreddit and a specified number of articles following.</p>
                             <ul class="list-inline item-details">
@@ -522,6 +534,7 @@
   ga('send', 'pageview');
 
 </script>
+
 
 </body>
 
